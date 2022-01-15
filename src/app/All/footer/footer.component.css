@@ -1,0 +1,19 @@
+i.bi.bi-facebook:hover,i.bi.bi-instagram:hover ,i.bi.bi-whatsapp:hover
+{
+    color: rgb(57, 150, 150);
+}
+div.containe
+{
+    background-color: rgb(21, 37, 66);
+    top: 100%;
+    overflow: hidden;
+    position: sticky;
+    max-width: 100%;
+    
+}
+i.bi.bi-facebook ,i.bi.bi-instagram ,i.bi.bi-whatsapp
+{
+    color: beige;
+}
+
+

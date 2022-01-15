@@ -1,0 +1,21 @@
+
+<div class="container">
+    <form #f="ngForm">
+        <label for="poduitName" >poduitName</label>
+        <input type="text" #poduitName="ngModel" ngModel name="poduitName" ><br>
+        <br>
+        <label for="poduitDescription" >poduitDescription</label>
+        <input type="text" #poduitDescription="ngModel" ngModel name="poduitDescription"><br>
+
+        <label for="poduitPrice" >poduitPrice</label>
+        <input type="text" #poduitPrice="ngModel" ngModel name="poduitPrice"><br>
+
+        <label for="poduitImage" >poduitImage</label>
+        <input type="text" #poduitImage="ngModel" ngModel name="poduitImage"><br>
+      
+        <button class="btn btn-info" (click)="postPc(f.value)" >
+            Post 
+        </button>
+
+    </form>
+</div>

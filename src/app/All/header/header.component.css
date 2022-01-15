@@ -1,0 +1,39 @@
+.navbar.navbar-expand-lg.navbar-light
+{
+ background-color: rgb(21, 37, 66);
+ 
+}
+
+
+
+.navbar-light .navbar-nav .nav-link.active-link
+{
+  color: rgb(57, 150, 150);
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link , a.navbar-brand.active-link
+{
+  color:beige;
+}
+
+button.btn.btn-outline-success
+{
+  color: beige;
+  border-color: beige;
+}
+button.btn.btn-outline-success:hover
+{
+  background-color: chartreuse;
+}
+
+.navbar-light .navbar-nav .nav-link.active-link:hover
+{
+  color: rgb(57, 150, 150);
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+  color: rgb(49, 190, 155);
+}
+
+
