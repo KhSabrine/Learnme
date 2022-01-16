@@ -2,8 +2,8 @@ export interface utilisateur  {
 
 id : number,
 cin : number,
-nom : String,
+fullNom : String,
 email : String,
 password : String,
-image : String
+role : String
 }

@@ -2,38 +2,42 @@
   "PCs": [
     {
       "id": 1,
-      "poduitName": "PC PORTABLE ASUS X543MA CELERON N4020 4GO 1TO - GRIS (X543MA-GQ1012T)",
+      "poduitName": "PC PORTABLE ASUS ",
       "poduitDescription": "'Écran 15.6' HD - Processeur: Intel Celeron N4020 (1,10 GHz up to 2,80 GHz, 4Mo Mémoire cache, Dual-Core) - Système d'exploitation: Windows 10 Famille - Mémoire RAM: 4Go - Disque Dur: 1 To - Carte Graphique: Intel HD Graphics, avec WiFi, Bluetooth, 1x USB 3.1, 2x USB 2.0, 1x HDMI - Couleur: Gris - Garantie: 1 an",
       "poduitPrice": 969,
       "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/x/5/x543ma-gq1012t.jpg"
     },
     {
       "id": 2,
-      "poduitName": "PC PORTABLE ACER ASPIRE 3 A315-56 I3 10È GÉN 8GO 1TO - ROUGE (NX.HS7EF.005)",
+      "poduitName": "PC PORTABLE ACER ",
       "poduitDescription": "'Écran 15.6' HD - Processeur: Intel Core i3-1005G1 (1,20 GHz up to 3,40 GHz, 4 Mo de mémoire cache, Dual-Core) - Système d'exploitation: Free Dos - Mémoire RAM: 8 Go DDR4 - Disque Dur: 1 To - Carte Graphique: Intel® UHD Graphics avec Wi-Fi, Bluetooth, 2x USB 2.0, 1x USB 3.1 Gen 1, 1x HDMI, 1x RJ-45 - Couleur: Rouge - Garantie: 1 an",
       "poduitPrice": 1349,
       "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/n/x/nxhs7ef005_1.jpg"
     },
     {
       "id": 3,
-      "poduitName": "PC PORTABLE LENOVO IDEAPAD L3 15IML05 I3 10É GÉN 4GO 1TO - BLEU (81Y300RRFE)",
+      "poduitName": "PC PORTABLE LENOVO",
       "poduitDescription": "'Écran 15.6' HD - Processeur: Intel Core i3-10110U (2.10 GHz up to 4.10 GHz, 4 Mo de mémoire cache, Dual-Core) - Système d'exploitation: Free Dos - Mémoire RAM: 4 Go DDR4 - Disque Dur: 1 To - Carte Graphique: NVIDIA GeForce MX130 (2 Go de mémoire dédiée GDDR5) avec Wi-Fi, Bluetooth, 1x USB Type-C 3.2 Gen 1 (prise en charge du transfert de données uniquement), 2x USB 3.2 Gen 1, 1x HDMI 1.4b et RJ-45 - Couleur: Bleu - Garantie: 1 an ",
       "poduitPrice": 1449000,
       "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/8/1/81y300rrfe.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "cin": 123456,
+      "fullNom": "Khehir Sabrine",
+      "email": "khedhirsabrinea@gmail.com",
+      "password": "123465",
+      "role": "Admin"
     },
     {
-      "id": 4,
-      "poduitName": "PC PORTABLE sabrine",
-      "poduitDescription": "'Écran 15.6' HD Intel HD Graphics, avec WiFi, Bluetoon",
-      "poduitPrice": 969,
-      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/x/5/x543ma-gq1012t.jpg"
-    },
-    {
-      "id": 5,
-      "poduitName": "PC PORTABLE sabrine",
-      "poduitDescription": "'Écran 15.6' HD Intel HD Graphics, avec WiFi, Bluetoon",
-      "poduitPrice": 969,
-      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/x/5/x543ma-gq1012t.jpg"
+      "id": 2,
+      "cin": 456789,
+      "fullNom": "khedhir Emna",
+      "email": "KhedhirEmna@gmail.com",
+      "password": "456789",
+      "role": "user"
     }
   ]
 }

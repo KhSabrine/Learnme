@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { utilisateur } from 'src/app/interfaces/utilisateur';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-inscrit',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InscritComponent implements OnInit {
 
-  constructor() { }
+  newUser:utilisateur
+  constructor(private serv:ApiService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {  
+    this.newUser=this.serv.newUser
   }
 
 }

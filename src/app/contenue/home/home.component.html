@@ -1,0 +1,17 @@
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let pd of prod,index as i">
+            <div class="productBox">
+                <img [src]="pd.poduitImage">
+                <h3>{{pd.poduitName}}</h3>
+                <h3>Prix : {{pd.poduitPrice}}</h3>
+                <p *ngIf="test[i]">{{pd.poduitDescription}}</p>
+                <button (click)="ngShowDetails(i)">  <span *ngIf="!test[i]">Show</span> <span *ngIf="test[i]">Hide</span> Details</button>
+            </div> 
+        </div>
+        
+    </div>
+
+
+
+</div>

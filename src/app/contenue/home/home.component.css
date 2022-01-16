@@ -12,3 +12,11 @@ a
     padding: 15px 20px;
     border-radius: 5px;
 }
+.productBox
+{
+    padding: 10px 5px;
+}
+.productBox img
+{
+    width: 100%;
+}

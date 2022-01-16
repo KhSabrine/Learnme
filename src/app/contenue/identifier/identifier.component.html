@@ -1,1 +1,11 @@
-<p>identifier works!</p>
+<div class="container">
+    <form #f="ngForm">
+        <label for="">Email</label>
+        <input type="text" #email="ngModel" ngModel name="email">
+        <label for="">Mot De passe</label>
+        <input type="password" #pass="ngModel" ngModel name="pass">
+        <button class="btn btn-info" (click)="LogIN(f.value)">submit</button>
+    </form>
+    <p class="alert alert-success" *ngIf="success">{{success}}</p>
+    <p class="alert alert-danger"  *ngIf="wrong">{{wrong}}</p>
+</div>

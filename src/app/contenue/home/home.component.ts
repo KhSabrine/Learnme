@@ -9,12 +9,22 @@ import { ApiService } from 'src/app/service/api.service';
 })
 export class HomeComponent implements OnInit {
   prod:Produits[]=[]
+  test:boolean[]=[]
   constructor(private serv:ApiService) { }
+  
   ngOnInit() {
    this.serv.onGetAllProducts().then(data=>{
     this.prod=data
+    for(let i=0;i<this.prod.length;i++){
+      this.test[i]=false
+    }
    })  
   }
 
+  ngShowDetails(i:number){
+    this.test[i]=!this.test[i]
+  }
+
+  
 
 }
