@@ -38,6 +38,22 @@
       "email": "KhedhirEmna@gmail.com",
       "password": "456789",
       "role": "user"
+    },
+    {
+      "cin": 9618173,
+      "fullNom": "sab",
+      "email": "Mak_plast@hotmail.fr",
+      "password": "123",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "cin": 9618173,
+      "fullNom": "sab",
+      "email": "jkl",
+      "password": "1",
+      "role": "user",
+      "id": 4
     }
   ]
 }

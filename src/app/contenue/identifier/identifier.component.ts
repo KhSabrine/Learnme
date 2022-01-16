@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { utilisateur } from 'src/app/interfaces/utilisateur';
 import { ApiService } from 'src/app/service/api.service';
 
@@ -12,7 +13,7 @@ export class IdentifierComponent implements OnInit {
   wrong:any
   newUser:utilisateur
   
-  constructor(private serv:ApiService) { }
+  constructor(private serv:ApiService,private rout:Router) { }
 
   ngOnInit(): void {
   }
@@ -32,6 +33,8 @@ export class IdentifierComponent implements OnInit {
         if(b.role=="Admin")
         {
           this.serv._verifier.next(true)
+          localStorage.setItem("role",`${b.role}`)
+          this.rout.navigate(["/produit"])
         }
         
       }

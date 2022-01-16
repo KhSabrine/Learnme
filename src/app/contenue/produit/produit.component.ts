@@ -7,7 +7,10 @@ import { ApiService } from 'src/app/service/api.service';
   styleUrls: ['./produit.component.css']
 })
 export class ProduitComponent implements OnInit {
-  constructor(private service : ApiService , private http:HttpClient) { }
+  userRole:any
+  constructor(private service : ApiService , private http:HttpClient) {
+    this.userRole=localStorage.getItem("role")
+   }
   produitData:any;
   ngOnInit(): void {
     this.GetAllPc()

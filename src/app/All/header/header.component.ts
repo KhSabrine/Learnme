@@ -16,4 +16,16 @@ export class HeaderComponent implements OnInit {
     })
   }
 
+  onLogOut(){
+    localStorage.removeItem("role")
+    this.serv._verifier.next(false)
+    this.ok=false
+  }
+
+
+
+
+
+
+
 }

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddNewPcComponent } from './add-new-pc/add-new-pc.component';
+import { AddUserComponent } from './add-user/add-user.component';
 import { ContactComponent } from './contenue/contact/contact.component';
 import { HomeComponent } from './contenue/home/home.component';
 import { IdentifierComponent } from './contenue/identifier/identifier.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
 {path:'inscrit',component:InscritComponent},
 {path:'addPc',component:AddNewPcComponent},
 {path:'contact',component:ContactComponent},
+{path:'addUser',component:AddUserComponent},
 {path:'**',component:HomeComponent}
 ];
 

@@ -4,6 +4,6 @@ id : number,
 cin : number,
 fullNom : String,
 email : String,
-password : String,
+password : String, 
 role : String
 }

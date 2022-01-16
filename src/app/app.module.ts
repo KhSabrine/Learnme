@@ -15,6 +15,8 @@ import { InscritComponent } from './contenue/inscrit/inscrit.component';
 import { ProduitComponent } from './contenue/produit/produit.component';
 import { ContactComponent } from './contenue/contact/contact.component';
 import { AddNewPcComponent } from './add-new-pc/add-new-pc.component';
+import { AddUserComponent } from './add-user/add-user.component';
+import { PrixPipe } from './pipes/prix.pipe';
 
 
 
@@ -31,6 +33,8 @@ import { AddNewPcComponent } from './add-new-pc/add-new-pc.component';
          ProduitComponent,
          ContactComponent,
          AddNewPcComponent,
+         AddUserComponent,
+         PrixPipe,
    
   ],
   imports: [

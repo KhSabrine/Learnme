@@ -109,4 +109,16 @@ this.onGetAllUsesr().then(data=>{
   })
 }
 
+onPostNewUser(f:any):Promise<String>{
+ return new Promise((resolve,reject)=>{
+   this.http.post("http://localhost:3000/users",f).subscribe(res=>{
+     resolve("ajouté avec succé")
+   })
+ })
+}
+
+
+
+
+
 }

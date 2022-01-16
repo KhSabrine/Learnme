@@ -1,0 +1,24 @@
+<div class="container">
+  <form #f="ngForm">
+      <br>
+    <label class="form-label">CIN</label>
+    <input type="number" #cin="ngModel" ngModel name="cin" class="form-control"><br>
+    
+    <label fclass="form-label">Full Name</label>
+    <input type="text" #fullNom="ngModel" ngModel name="fullNom" class="form-control"><br>
+    
+    <label class="form-label">E-mail</label>
+    <input type="text" #email="ngModel" ngModel name="email" class="form-control"><br>
+    
+    <label for="poduitName" class="form-label">PassWord</label>
+    <input type="password" #password="ngModel" ngModel name="password" class="form-control"><br>
+
+    <label for="poduitName" class="form-label">Confirm PassWord</label>
+    <input type="password" #cpassword name="cpassword" class="form-control"><br>
+
+    <!-- <label for="poduitName" class="form-label">Role</label> -->
+    <input type="text" #role="ngModel" ngModel="user" name="role" class="form-control" hidden="true"><br>
+     
+    <button class="btn btn-primary" (click)="postNewUser(f.value)">S'inscrire</button>
+  </form>
+</div>

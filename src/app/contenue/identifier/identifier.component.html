@@ -1,11 +1,15 @@
 <div class="container">
+<div class="mb-3">
     <form #f="ngForm">
-        <label for="">Email</label>
-        <input type="text" #email="ngModel" ngModel name="email">
-        <label for="">Mot De passe</label>
-        <input type="password" #pass="ngModel" ngModel name="pass">
-        <button class="btn btn-info" (click)="LogIN(f.value)">submit</button>
+        <br>
+        <label class="form-label" >Email</label>
+        <input type="text" #email="ngModel" ngModel name="email" class="form-control">
+        <label class="form-label">Mot De passe</label>
+        <input type="password" #pass="ngModel" ngModel name="pass" class="form-control">
+        <br>
+        <button class="btn btn-primary" (click)="LogIN(f.value)">submit</button>
     </form>
     <p class="alert alert-success" *ngIf="success">{{success}}</p>
     <p class="alert alert-danger"  *ngIf="wrong">{{wrong}}</p>
+</div>
 </div>

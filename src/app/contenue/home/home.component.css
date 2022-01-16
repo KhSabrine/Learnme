@@ -1,22 +1,8 @@
-.homeclasse
+body div.card
 {
-    /*background-image: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/height: 500px;
+    background-image: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 500px;
     background-size: cover;
     /*background-attachment: fixed;*/
     
-}
-a
-{
-    text-decoration: none;
-    background-color: beige;
-    padding: 15px 20px;
-    border-radius: 5px;
-}
-.productBox
-{
-    padding: 10px 5px;
-}
-.productBox img
-{
-    width: 100%;
 }

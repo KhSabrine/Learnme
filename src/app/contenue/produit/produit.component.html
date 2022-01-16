@@ -8,7 +8,7 @@
                 <h3>{{pd.poduitPrice}}</h3>
             </div> 
 
-            <button (click)="deleteProduit(pd.id)">Delete</button> 
+            <button (click)="deleteProduit(pd.id)" *ngIf="userRole">Delete</button> 
         </div>
         
     </div>
