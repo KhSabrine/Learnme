@@ -1,5 +1,6 @@
+
 <nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid" >
+  
     <a class="navbar-brand" routerLink="home" routerLinkActive="active-link" >
       <i class="bi bi-laptop"></i>
       <!--<img src="https://images.frandroid.com/wp-content/uploads/2019/08/une-bts-microsoft-frandroid-2.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">-->
@@ -12,9 +13,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
-        <!-- <a class="nav-link" routerLink="identifier" routerLinkActive="active-link">Identify</a> -->
+       <a class="nav-link" routerLink="identifier" routerLinkActive="active-link" *ngIf="!ok">Identify</a>
         <a class="nav-link" routerLink="inscrit" routerLinkActive="active-link" *ngIf="ok">Profile</a>
-        <a class="nav-link " routerLink="addPc" routerLinkActive="active-link">AddNewPc</a>
+        <a class="nav-link " routerLink="addPc" routerLinkActive="active-link" *ngIf="ok">AddNewPc</a>
         <a class="nav-link " routerLink="produit" routerLinkActive="active-link" *ngIf="ok">Products</a>
         <a class="nav-link " routerLink="contact" routerLinkActive="active-link">Contact</a>
         <a class="nav-link " routerLink="addUser" routerLinkActive="active-link" *ngIf="!ok">Add New User</a>
@@ -22,13 +23,13 @@
         
       </div>
     </div>
-  </div>
-  <nav class="navbar navbar-light" >
+  </nav>
+  <!-- <nav class="navbar navbar-light" >
     <div class="container-fluid" >
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-  </nav>
-</nav>
+  </nav> -->
+

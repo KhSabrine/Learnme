@@ -1,4 +1,4 @@
-body div.card
+.card-body
 {
     background-image: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     height: 500px;

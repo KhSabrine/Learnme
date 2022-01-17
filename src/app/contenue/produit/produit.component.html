@@ -1,18 +1,20 @@
 <div class="container mt-4 mb-4">
     <div class="row">
-        <div class="col-lg-3" *ngFor="let pd of produitData">
-            <div class="productBox">
-                <img [src]="pd.poduitImage">
-                <h3>{{pd.poduitName}}</h3>
-                <h6>{{pd.poduitDescription}}</h6>
-                <h3>{{pd.poduitPrice}}</h3>
-            </div> 
+        <div class="col-lg-3" *ngFor="let pd of produitData,index as i">
+            <div class="card mx-auto col" style="width: 30remx;min-height: 20rem;">
+                <img [src]="pd.poduitImage" class="card-img-top">
+                <h4 class="card-title">{{pd.poduitName}}</h4>
+                <h6>Prix : {{pd.poduitPrice | prix}}</h6>
+                <p *ngIf="test[i]" class="card-text">{{pd.poduitDescription}}</p>
+                <button (click)="onShowDetails(i)" class="btn btn-primary">  
+                <span *ngIf="!test[i]">Show</span> <span *ngIf="test[i]">Hide</span> Details</button>
+            </div>  
 
-            <button (click)="deleteProduit(pd.id)" *ngIf="userRole">Delete</button> 
+            <button class="btn btn-danger" (click)="deleteProduit(pd.id)" *ngIf="userRole" >Delete</button> 
         </div>
         
     </div>
 
 
-
+ 
 </div>

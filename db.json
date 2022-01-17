@@ -20,6 +20,13 @@
       "poduitDescription": "'Écran 15.6' HD - Processeur: Intel Core i3-10110U (2.10 GHz up to 4.10 GHz, 4 Mo de mémoire cache, Dual-Core) - Système d'exploitation: Free Dos - Mémoire RAM: 4 Go DDR4 - Disque Dur: 1 To - Carte Graphique: NVIDIA GeForce MX130 (2 Go de mémoire dédiée GDDR5) avec Wi-Fi, Bluetooth, 1x USB Type-C 3.2 Gen 1 (prise en charge du transfert de données uniquement), 2x USB 3.2 Gen 1, 1x HDMI 1.4b et RJ-45 - Couleur: Bleu - Garantie: 1 an ",
       "poduitPrice": 1449000,
       "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/8/1/81y300rrfe.jpg"
+    },
+    {
+      "poduitName": "PC1",
+      "poduitDescription": "c'est un pc",
+      "poduitPrice": "3000",
+      "poduitImage": "https://www.tunisianet.com.tn/134151-large/pc-portable-lenovo-ideapad-l340-15irh-gaming-i5-9e-gen-8-go-sac-a-dos-lenovo-offert.jpg",
+      "id": 4
     }
   ],
   "users": [

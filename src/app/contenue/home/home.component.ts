@@ -10,7 +10,12 @@ import { ApiService } from 'src/app/service/api.service';
 export class HomeComponent implements OnInit {
   prod:Produits[]=[]
   test:boolean[]=[]
-  constructor(private serv:ApiService) { }
+  ifConect=false
+  constructor(private serv:ApiService) {
+    this.serv.ok$.subscribe(res=>{
+      this.ifConect=res
+    })
+   }
   
   ngOnInit() {
    this.serv.onGetAllProducts().then(data=>{
@@ -20,8 +25,8 @@ export class HomeComponent implements OnInit {
     }
    })  
   }
-
-  ngShowDetails(i:number){
+ 
+  onShowDetails(i:number){
     this.test[i]=!this.test[i]
   }
 
