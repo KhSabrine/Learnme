@@ -13,13 +13,13 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
-       <a class="nav-link" routerLink="identifier" routerLinkActive="active-link" *ngIf="!ok">Identify</a>
-        <a class="nav-link" routerLink="inscrit" routerLinkActive="active-link" *ngIf="ok">Profile</a>
+       <a class="nav-link" routerLink="identifier" routerLinkActive="active-link" *ngIf="!ok || !okUser">Identify</a>
+        <!-- <a class="nav-link" routerLink="inscrit" routerLinkActive="active-link" *ngIf="ok">Profile</a> -->
         <a class="nav-link " routerLink="addPc" routerLinkActive="active-link" *ngIf="ok">AddNewPc</a>
-        <a class="nav-link " routerLink="produit" routerLinkActive="active-link" *ngIf="ok">Products</a>
-        <a class="nav-link " routerLink="contact" routerLinkActive="active-link">Contact</a>
-        <a class="nav-link " routerLink="addUser" routerLinkActive="active-link" *ngIf="!ok">Add New User</a>
-        <a class="nav-link " routerLink="home" routerLinkActive="active-link" (click)="onLogOut()" *ngIf="ok">LogOut</a>
+        <a class="nav-link " routerLink="produit" routerLinkActive="active-link" *ngIf="ok || okUser">Products</a>
+        <!-- <a class="nav-link " routerLink="contact" routerLinkActive="active-link">Contact</a> -->
+        <a class="nav-link " routerLink="addUser" routerLinkActive="active-link" *ngIf="!ok || !okUser">Add New User</a>
+        <a class="nav-link " routerLink="home" routerLinkActive="active-link" (click)="onLogOut()" *ngIf="ok || okUser">LogOut</a>
         
       </div>
     </div>

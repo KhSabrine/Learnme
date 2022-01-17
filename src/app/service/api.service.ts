@@ -18,6 +18,10 @@ export class ApiService {
   newUser:utilisateur
   _verifier=new Subject<boolean>()
   ok$=this._verifier.asObservable()
+
+  _user=new Subject<boolean>()
+  okUser$=this._user.asObservable()
+
   constructor(private http:HttpClient,private router:Router) { 
 
   }

@@ -22,11 +22,39 @@
       "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/8/1/81y300rrfe.jpg"
     },
     {
-      "poduitName": "PC1",
-      "poduitDescription": "c'est un pc",
-      "poduitPrice": "3000",
-      "poduitImage": "https://www.tunisianet.com.tn/134151-large/pc-portable-lenovo-ideapad-l340-15irh-gaming-i5-9e-gen-8-go-sac-a-dos-lenovo-offert.jpg",
+      "poduitName": "LENOVO",
+      "poduitDescription": "Écran 15.6\" HD - Processeur: Intel Celeron N4020 (1,10 GHz up to 2.80 GHz , 4Mo de mémoire cache, Dual-Core) - Système d'exploitation: FreeDos - Mémoire RAM: 4 Go DDR4-2400 - Disque Dur: 1To HDD - Carte Graphique: Intel HD Graphics avec Wi-Fi, Bluetooth,1x USB 2.0, 2x USB 3.2 Gen 1, 1x HDMI 1.4, 1x prise combo casque/micro (3,5 mm) et lecteur de carte - Couleur: Bleu - Garantie: 1 an",
+      "poduitPrice": "829,000",
+      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/8/1/81wq00gsfg.jpg",
       "id": 4
+    },
+    {
+      "poduitName": "ASUS",
+      "poduitDescription": "Écran 14\" HD - Processeur: AMD Ryzen 5-5500U (2.1GHz up to 4.0GHz, L2: 3 Mo/ L3: 8 Mo de mémoire cache, Hexa-Core) - Système d'exploitation: Windows 10 Famille - Mémoire RAM: 8 Go - Disque Dur: 512 Go SSD -Carte Graphique: AMD Radeon™ Graphics avec WiFi, Bluetooth,1x USB 3.2 Gen 1 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 2.0 Type-A, 1 x HDMI 1.4, 1 x combo audio jack de 3,5 mm et lecteur de carte Micro SD - Clavier Chiclet Rétroéclairé Avec NumPad - Couleur: Gris - Garantie: 1 an",
+      "poduitPrice": "1 829,000",
+      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/m/4/m415ua-bv157t_1.jpg",
+      "id": 5
+    },
+    {
+      "poduitName": "LENOVO",
+      "poduitDescription": "Écran 15.6\" HD - Processeur: Intel Celeron N4020 (1,10 GHz up to 2.80 GHz , 4Mo de mémoire cache, Dual-Core) - Système d'exploitation: FreeDos - Mémoire RAM: 4 Go DDR4-2400 - Disque Dur: 1To HDD - Carte Graphique: Intel HD Graphics avec Wi-Fi, Bluetooth,1x USB 2.0, 2x USB 3.2 Gen 1, 1x HDMI 1.4, 1x prise combo casque/micro (3,5 mm) et lecteur de carte - Couleur: Noir - Garantie: 1 an",
+      "poduitPrice": "829,000",
+      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/8/1/81wq00grfg.jpg",
+      "id": 6
+    },
+    {
+      "poduitName": "DELL",
+      "poduitDescription": "Écran 15.6\" HD - Processeur: Intel Core i3-1115G4 (4,10 GHz Turbo max, 6 Mo de mémoire cache, Dual-Core) - Système d'exploitation: FreeDos (Ubuntu) - Mémoire RAM: 12 Go DDR4 - Disque dur: 1 To - Carte graphique: Intel HD Graphics avec WiFi, Bluetooth, 2x USB 3.2 Type-A Gen 1, 1x USB 2.0, 1x HDMI 1.4 et RJ-45 - Couleur: Noir - Garantie: 1 an",
+      "poduitPrice": "1 495,000",
+      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/n/6/n6501vn3500emea03_1.jpg",
+      "id": 7
+    },
+    {
+      "poduitName": "ACER",
+      "poduitDescription": "Écran 15.6\" HD - Processeur: Intel Core i5-1035G1 (1,00 GHz up to 3,60 GHz, 6 Mo de mémoire cache, Quad-Core) - Système d'exploitation: Free Dos - Mémoire RAM: 4 Go DDR4 - Disque Dur: 1 To - Carte Graphique: Intel® UHD Graphics avec Wi-Fi, Bluetooth, 2x USB 2.0, 1x USB 3.1 Gen 1, 1x HDMI et RJ-45 - Couleur: Bleu - Garantie: 1 an",
+      "poduitPrice": "1 629,000",
+      "poduitImage": "https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/n/x/nxhs6ef008.jpg",
+      "id": 8
     }
   ],
   "users": [
@@ -61,6 +89,22 @@
       "password": "1",
       "role": "user",
       "id": 4
+    },
+    {
+      "cin": 917154,
+      "fullNom": "khedhir amine",
+      "email": "mino_mak@hotmail.fr",
+      "password": "123",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "cin": 12345670,
+      "fullNom": "khedhir saber",
+      "email": "saber@gmail.com",
+      "password": "147",
+      "role": "user",
+      "id": 6
     }
   ]
 }

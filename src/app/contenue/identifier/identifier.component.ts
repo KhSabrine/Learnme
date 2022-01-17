@@ -33,7 +33,12 @@ export class IdentifierComponent implements OnInit {
         if(b.role=="Admin")
         {
           this.serv._verifier.next(true)
-          localStorage.setItem("role",`${b.role}`)
+         // localStorage.setItem("role",`${b.role}`)
+          this.rout.navigate(["/produit"])
+        }
+        else if(b.role=="user")
+        {
+          this.serv._user.next(true)
           this.rout.navigate(["/produit"])
         }
         
